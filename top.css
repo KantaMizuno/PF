@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}/*marginとpaddingの設定を初期化*/
+
+*{
+  background-color: #FEE505;
+}
+
+#container {
+  display : flex;
+}
+
+.top-img{
+  overflow:hidden;
+  margin-left:200px;
+
+;
+
+}
+
+h1{
+  text-align : center;
+  margin-top:55px ;
+  font-size: 70px;
+  color : #707070;
+  font-family: HGｺﾞｼｯｸE;
+}
+
+.access{
+  
+  margin-top:70px;
+  margin-left:200px;
+  font-size: 50px;    /* 文字サイズ指定 */
+  font-family: HGｺﾞｼｯｸE;
+  line-height: 2;
+  
+}
+
+

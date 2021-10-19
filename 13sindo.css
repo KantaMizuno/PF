@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+}/*marginとpaddingの設定を初期化*/
+
+.header{/*ボタンを横並び*/
+  display:flex;
+  background-color: #FEE505;  
+  position:fixed;
+}
+a{/*ボタン作成*/
+   font-size:0.75em;
+  display:block;
+  width:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background:rgb(255, 137, 69);
+  }
+  a:hover{/*ボタンにカーソルを置くと色が変わる*/
+    background-image:url("img/1.jpg");
+    }
+
+*{
+  background-color: #FEE505;/*全画面黄色*/
+}
+
+.main{
+  display : flex;
+}
+
+h1{
+white-space: nowrap;
+font-size:80px;
+margin-top:100px;
+margin-left:180px;
+font-family: HGｺﾞｼｯｸE;
+}
+
+h2{
+  white-space: nowrap;
+  font-size:50px;
+  margin-left:180px;
+  font-family: HGｺﾞｼｯｸE;
+}
+
+h3{
+  font-size:30px;
+  margin-top:50px;
+  margin-left:180px;
+}
+.char2{
+  margin-left:150px;
+}
+
+.char2 img{
+  width: 420px;
+  height: 700px;
+}

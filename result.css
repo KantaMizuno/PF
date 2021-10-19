@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}/*marginとpaddingの設定を初期化*/
+
+a{
+  font-size:0.75em;
+ display:block;
+ width:100px;
+ padding-top:10px;
+ padding-bottom:10px;
+ text-align:center;
+ border:2px solid;
+ border-color:#aaaaaa #444444 #444444 #aaaaaa;
+ background:#cccccc;
+ }
+
+h1{
+  color:red;
+  text-align:center;
+  }
+
+  h3{
+    color:red;
+    text-align:center;
+    }
+
+*{
+  background-color: #FEE505;/*全画面黄色*/
+}

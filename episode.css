@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding:0;
+}/*marginとpaddingの設定を初期化*/
+
+
+.header{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  background-color: #FEE505;
+  position:fixed;
+}
+a{
+   font-size:0.75em;
+  display:block;
+  width:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background:rgb(255, 137, 69);
+  }
+  a:hover{
+    background-image:url("img/1.jpg");
+    }
+.main-visual{
+background-image: url("img/episode.jpg");
+background-size: cover;
+height : 100vh;
+}
+h1{text-align: center}
+
+h3{text-align: center}
+
+h1{
+  font-size: 45px; 
+  color: yellow;
+}
+h3{
+  font-size: 25px; 
+  color:white;
+}
+
+.font1 {
+  font-size: 30px;    /* 文字サイズ指定 */
+  color: #292626;     /* 文字色指定 */
+}
+.font2 {
+  font-size: 30px;    /* 文字サイズ指定 */
+  color: #292626;     /* 文字色指定 */
+}
+.font3 {
+  font-size: 30px;    /* 文字サイズ指定 */
+  color: #292626;     /* 文字色指定 */
+}
+.font4 {
+  font-size: 30px;    /* 文字サイズ指定 */
+  color: #06d139;     /* 文字色指定 */
+}
+.font5 {
+  font-size: 30px;    /* 文字サイズ指定 */
+  color:  #292626;     /* 文字色指定 */
+}
+.font6 {
+  font-size: 30px;    /* 文字サイズ指定 */
+  color: #eaec44;     /* 文字色指定 */
+}
+

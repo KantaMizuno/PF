@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+}/*marginとpaddingの設定を初期化*/
+
+.header{
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  /* background-color: #FEE505; */
+}
+
+.top,.episode,.ranking,.chat{/*ボタン作成*/
+   font-size:0.75em;
+  display:block;
+  width:100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:center;
+  border:2px solid;
+  border-color:#aaaaaa #444444 #444444 #aaaaaa;
+  background:rgb(255, 137, 69);
+  }
+  .top:hover,.episode:hover,.ranking:hover,.chat:hover{/*ボタンにカーソルを置くと色が変わる*/
+    background-image:url("img/1.jpg");
+    }
+
+body {
+  background-color: #FEE505;/*全画面黄色*/
+}
+
+.human{
+  margin-top:30px;
+  padding:10px;
+}
+
+
